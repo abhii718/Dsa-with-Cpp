@@ -76,5 +76,5 @@ int main()
     printf("Linked list after insertion \n");
     linkedlsttravesal(head);
     return 0;
-    // hi hlo 
+    // hi hlo
 }
