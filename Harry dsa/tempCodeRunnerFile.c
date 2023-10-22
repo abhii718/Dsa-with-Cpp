@@ -1,1 +1,1 @@
-    linkedinseartion(head);
+ q->next;
