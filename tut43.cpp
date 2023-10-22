@@ -27,7 +27,7 @@ public:
     {
         maths = m1;
         physics = m2;
-    }////
+    }//////
     void print_marks(void)
     {
         cout << "your result is here :"<< endl;
