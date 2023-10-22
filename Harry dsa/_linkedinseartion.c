@@ -57,8 +57,8 @@ struct Node *insertAtLast(struct Node *head, int data)
     ptr->next = NULL;
     return head;
 
-    ptr->next = head;
-    return ptr;
+    // ptr->next = head;
+    // return ptr;
 };
 
 // case 4
@@ -98,8 +98,8 @@ int main()
     third->data = 15;
     third->next = fourth;
 
-    // Linked fourth and first node
-    fourth->data = 120;
+    // Linked fourth and first node i love you
+    fourth->data = 110;
     fourth->next = NULL;
 
     printf("Linked list before insertion\n");
