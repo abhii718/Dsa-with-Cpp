@@ -99,7 +99,7 @@ int main()
     third->next = fourth;
 
     // Linked fourth and first node i love you
-    fourth->data = 130;
+    fourth->data = 100;
     fourth->next = NULL;
 
     printf("Linked list before insertion\n");
