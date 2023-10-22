@@ -8,13 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-<<<<<<< HEAD
       "cwd": "c:/Users/Abhinay Singh/Desktop/CPP/Harry dsa",
       "program": "c:/Users/Abhinay Singh/Desktop/CPP/Harry dsa/build/Debug/outDebug",
-=======
-      "cwd": "c:/Users/Abhinay Singh/Desktop/CPP/first",
-      "program": "c:/Users/Abhinay Singh/Desktop/CPP/first/build/Debug/outDebug",
->>>>>>> origin/main
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
