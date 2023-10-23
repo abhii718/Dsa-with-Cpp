@@ -9,7 +9,7 @@ struct stack
 };
 int isEmpty(struct stack *ptr)
 {
-    if (ptr->top == -1)
+    if (ptr->top == -1)//
     {
         return 1;
     }
@@ -47,7 +47,7 @@ int main()
     s->arr[0] = 7;
     s->top++;
 
-    
+
     // check if stack is empty
     if (isEmpty(s))
     {
