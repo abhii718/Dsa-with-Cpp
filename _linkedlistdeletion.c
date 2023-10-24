@@ -107,8 +107,8 @@ int main()
     // head = deletefirst(head);  //delete first element of linked list
     // head = deleteAtIndex(head, 2); deleting the element at a given index in the linked list
     // head = deleteLastIndex(head); // deleting last index of linked list
-    head = deleteAtNode(head, 15);
-    printf("linked list after deletion");
+    head = deleteAtIndex(head, 15);
+    printf("linked lisst after deletion ");
     linkedlsttravesal(head);
     return 0;
 }
