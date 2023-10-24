@@ -7,7 +7,7 @@ int top = -1;
 
 int isFull()
 {
-    if (top == MAX + 1)
+    if (top == MAX - 1)
     {
         return 1;
     }
@@ -31,7 +31,7 @@ void push(int data)
 {
     if (isFull())
     {
-        printf("stack overflow\n");
+        printf("Stack Overflow\n");
         return;
     }
     else
@@ -57,14 +57,14 @@ int pop()
 }
 int peek()
 {
-    if (isEmpty)
+    if (!isEmpty())
     {
-        printf("stack underflow\n");
-        exit(1);
+        return stack_arr[top];
     }
     else
     {
-        return stack_arr[top];
+        printf("Stack underflow\n");
+        exit(1);
     }
 }
 void print()
@@ -112,7 +112,7 @@ int main()
             print();
             break;
         case 5:
-            exit(1);
+            exit(0);
             break;
         default:
             printf(" enter 1 to 5 only");
